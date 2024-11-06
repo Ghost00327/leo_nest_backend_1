@@ -13,7 +13,7 @@ export class ArticlesService {
   }
 
   findAll() {
-    return this.prisma.article.findMany({where: {published: true}});
+    return this.prisma.article.findMany();
   }
 
   findDrafts() {
