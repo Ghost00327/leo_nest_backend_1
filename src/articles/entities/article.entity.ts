@@ -18,6 +18,12 @@ export class ArticleEntity implements Article{
     published: boolean;
 
     @ApiProperty()
+    authorId: number;
+
+    @ApiProperty()
+    authors: object;
+
+    @ApiProperty()
     createAt: Date;
 
     @ApiProperty()
